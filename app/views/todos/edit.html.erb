@@ -1,0 +1,27 @@
+<h1>Modification dun rapport qui existait</h1>
+<% if  @todo.errors.any? %>
+  <h2>nous avons les erreurs si dessous presente depuis notre formulaire</h2>
+  <ul>
+    <% @todo.errors.full_messages.each do |msg| %>
+      <li><%=msg %></li>
+    <% end %>
+
+  </ul>
+<%end %>
+<%=form_for @todo do |f|%>
+  <div>
+    <%= f.label :name %>
+    <%=f.text_field :name %>
+  </div>
+  <div>
+    <%=f.label :description %>
+    <%=f.text_field :description %>
+  </div>
+  <div>
+    <%=f.submit%>
+  </div>
+  <div>
+  </div>
+<% end %>
+
+<%=link_to "Back to todos" ,todos_path %>

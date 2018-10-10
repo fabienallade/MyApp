@@ -1,0 +1,25 @@
+<h5>fabien fait les choses comme il le faut mon pote </h5>
+<span>toi tu croyais quoi depuis le debut</span>
+
+<p>
+  <%=link_to "Create a Todo",new_todo_path  %>
+</p>
+
+<table>
+  <thead>
+  <th>Name</th>
+  <th>Description</th>
+  </thead>
+  <tbody>
+  <%@todo.each do |todo|%>
+    <tr>
+      <td><%=todo.name %></td>
+      <td><%=todo.description %></td>
+      <td><%=link_to "Edit",edit_todo_path(todo) %></td>
+      <td><%=link_to "Show",todo_path(todo) %></td>
+      <td><%=link_to "Delete ",todo_path(todo),method: :delete,data:{confirm:"est tu sur de ca ????"} %></td>
+    </tr>
+ <% end %>
+
+  </tbody>
+</table>
