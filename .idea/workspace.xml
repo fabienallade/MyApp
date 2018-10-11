@@ -2,11 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93fbf699-3df1-48f4-b766-49c6c0fb402e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/aquamarine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/aquamarine.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/hunters_by_ryky-dbqs5rh.png.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/iced_deer_by_seerstuff-dbkvq3o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/ichigo_and_orihime___bleach_by_dgesika-d5jidhs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/ichihime_481_by_bleach_fairy-d4pw04l.png.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/ichihime_agony_by_m_i_s_t_i_k_a-d5kqpfe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/ih_week___day_1_by_rei_ami-d64bdt7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/ih_week___day_6_by_rei_ami-d64ydtv.png.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/interstellar_wormhole_by_erikshoemaker-d899fb6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/invasion_of_the_cubeship__variation_2__by_julian_faylona-d7l3nrh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/knowing_the_past__writing_the_future_by_freakingoutgirl-d4nk1wl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/konan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/little_curiousity_by_neytirix-dalinm2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/loki_by_annikeololo-d5128hg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/mirror_by_ryky-dbof2qg.png.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/moonriver_shepherd_by_seerlight-dbn9y2n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/my_imagination_by_ryky-dbqfy15.png.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/no_title_by_teplyshko_chan-d56azas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/other_planet_by_ryky-dbr2ml1.png.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/papa (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/papa (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/papa (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/papa (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/passage_in_the_tree_by_alanleal22-d9ri7g8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/peyp_by_flora_silve-dat5ku5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/aquamarine.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/aquamarine.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/fabien.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -179,15 +224,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap/dist/css/fabien.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/config/manifest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
@@ -212,7 +248,7 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-40">
-              <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+              <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -339,6 +375,20 @@
               <item name="Myapp" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Myapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Myapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -482,17 +532,18 @@
       <workItem from="1539123795470" duration="143000" />
       <workItem from="1539159714670" duration="776000" />
       <workItem from="1539161871253" duration="12121000" />
-      <workItem from="1539187491984" duration="7241000" />
+      <workItem from="1539187491984" duration="7596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51753000" />
+    <option name="totallyTimeSpent" value="52108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.3289855" />
@@ -506,7 +557,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289855" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289855" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -745,7 +796,7 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
-          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
         </state>
       </provider>
     </entry>
