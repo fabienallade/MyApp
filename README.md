@@ -6,7 +6,8 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+l url du site a accede est ici
+ https://git.heroku.com/calm-peak-10968.git
 * System dependencies
 
 * Configuration
