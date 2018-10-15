@@ -1,0 +1,10 @@
+<h1>La liste des utilisateur</h1>
+<%=will_paginate %>
+<%@users.each do |user| %>
+<div class="card card-footer">
+  <span><%=user.name %></span>
+  <br>
+  <small><%=user.publications.count %> Commentaires</small>
+</div>
+<% end %>
+<%=will_paginate %>

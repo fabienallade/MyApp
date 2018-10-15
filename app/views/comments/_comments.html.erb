@@ -1,0 +1,10 @@
+<div>
+  <div>
+    <% comments.each do |comments|%>
+    <span><%=comments.user.email %></span>
+      <br>
+      <h5><%=comments.body %></h5>
+      <span class="float-left"> <small>Create at <%=time_ago_in_words(comments.created_at) %> ago</small></span>
+    <% end %>
+  </div>
+</div>

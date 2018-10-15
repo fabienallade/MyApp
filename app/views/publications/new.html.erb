@@ -1,0 +1,26 @@
+<h1>Creation de publications</h1>
+<% if  @publication.errors.any? %>
+<div class="alert alert-danger">
+  <h2>nous avons les erreurs si dessous presente depuis notre formulaire <%=pluralize(@publication.errors.count,"error") %></h2>
+  <ul>
+    <% @publication.errors.full_messages.each do |msg| %>
+      <li><%=msg %></li>
+    <% end %>
+
+  </ul>
+</div>
+<%end %>
+<%=form_for @publication,html: {class:"form"} do |f| %>
+  <div>
+  <%= f.label :name %>
+  <%=f.text_field :name,class:"form-control",placeholder:"Titre de la publication" %>
+  </div>
+  <div>
+    <%=f.label :description %>
+    <%=f.text_field :description,class:"form-control" %>
+  </div>
+  <div>
+    <%=f.submit  class:"btn btn-primary" %>
+  </div>
+<% end %>
+<%=link_to "Cancel request and return to the all publication",publications_path %>

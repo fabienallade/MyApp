@@ -1,0 +1,23 @@
+<div class="align-content-center">
+  <h1 align="center"><%=@publication.name.capitalize %></h1>
+  <div class="col-md-6 offset-4">
+    <h4 class="center method-description"><strong>Description: </strong></h4>
+    <hr>
+    <%=@publication.description %>
+    <p>
+    <hr>
+    <br>
+    <div class="publication_actions card card-footer">
+    <%=link_to "Edit Publications",edit_publication_path(@publication),class: "btn btn-xs btn-secondary" %>
+      <%=link_to "Delete ",publication_path(@publication),class: "btn btn-danger",method: :delete,data:{confirm:"est tu sur de ca ????"} %>
+    </div>
+    <div class="float-left">
+      <small class="float-left" >
+        <%=@publication.user.name %>
+      </small>
+    </div>
+
+    </p>
+  </div>
+
+</div>

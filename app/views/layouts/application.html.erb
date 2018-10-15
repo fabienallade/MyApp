@@ -10,11 +10,27 @@
   </head>
 
   <body>
+
   <% flash.each do |name,msg|%>
-<ul>
-  <li><%=msg %></li>
-</ul>
+    <div class="alert alert-<%=name%> alert-dismissible fade show" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <ul>
+        <li><%=msg %></li>
+      </ul>
+
+    </div>
   <% end %>
+
     <%= yield %>
   </body>
+  <script>
+      $(document).ready(function () {
+          $('#sidebarCollapse').on('click', function () {
+              $('#sidebar').toggleClass('active');
+              $(this).toggleClass('active');
+          });
+      });
+  </script>
 </html>

@@ -1,0 +1,32 @@
+<h1 class="align-content-center">Toutes les publications</h1>
+<hr>
+<%=will_paginate %>
+<% @publications.each do  |pub| %>
+  <div class="row">
+    <div class="col-md-2">
+    <section class="align-content-center"></section>
+    </div>
+    <div class="col-md-8 card text-dark ">
+      <h4 class=""><%= link_to pub.name,publication_path(pub) %></h4>
+      <h4><%=truncate(pub.description,length:150) %></h4>
+     <span class="quiet"> <small>Create at <%=time_ago_in_words(pub.created_at) %> ago</small></span>
+      <% if pub.comments.count !=0 %>
+        <div>
+          <div class="row">
+            <div class="col-md-2">
+              <%= render partial: "comments/comments",object: pub.comments %>
+            </div>
+          </div>
+        </div>
+      <%else pub.comments==0%>
+        <div class="row">
+          <hr>
+          <div class="col-md-2">
+            <h4>No comments for Now</h4>
+          </div>
+        </div>
+      <%end %>
+    </div>
+  </div>
+<% end %>
+<%=will_paginate %>
