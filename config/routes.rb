@@ -4,6 +4,7 @@ root "user#Hello"
   get "/about",to: "user#about"
   get "/login",to: "user#login"
   post "/login",to:"user#create"
+  post "comments",to:"comments#create"
   delete "/logout",to:"users#destroy"
 =begin
   get "/inscription",to:"user#inscription"

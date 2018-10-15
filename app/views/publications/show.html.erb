@@ -17,6 +17,11 @@
       </small>
     </div>
 
+    <%= form_for :comments ,url:"/comments" do |f| %>
+       Comments  <%= f.text_field :comments ,class:"form-control" %><br />
+      <%= f.submit class:"btn btn-secondary" %>
+    <% end %>
+
     </p>
   </div>
 
