@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93fbf699-3df1-48f4-b766-49c6c0fb402e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -156,7 +155,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="RHTML" value="45" />
-          <entry key="Ruby" value="52" />
+          <entry key="Ruby" value="53" />
           <entry key="SCSS" value="9" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -169,7 +168,7 @@
           <entry key="erb" value="45" />
           <entry key="js" value="2" />
           <entry key="md" value="1" />
-          <entry key="rb" value="45" />
+          <entry key="rb" value="46" />
           <entry key="scss" value="9" />
           <entry key="sql" value="1" />
         </counts>
@@ -230,11 +229,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/channels/application_cable/connection.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -342,7 +350,6 @@
         <option value="$PROJECT_DIR$/app/controllers/publications_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/user/login.html.erb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20181015093310_create_comments.rb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/app/controllers/comments.rb" />
@@ -358,6 +365,7 @@
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
       </list>
     </option>
   </component>
@@ -675,18 +683,18 @@
       <workItem from="1539593715358" duration="11447000" />
       <workItem from="1539619427558" duration="6345000" />
       <workItem from="1539647164905" duration="2442000" />
-      <workItem from="1539684244004" duration="4687000" />
+      <workItem from="1539684244004" duration="4901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137346000" />
+    <option name="totallyTimeSpent" value="137560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29731545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29731545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -699,7 +707,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3289855" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29130435" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29130435" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289855" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3289855" />
@@ -890,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/channels/application_cable/connection.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/publication.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1043,6 +1044,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/channels/application_cable/connection.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
