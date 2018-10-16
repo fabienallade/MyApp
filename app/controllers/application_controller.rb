@@ -13,5 +13,15 @@ protect_from_forgery with: :exception
 
     end
   end
+  private
+  def logged_in?
+    !!current_user
+  end
+  def require_user
+  if !logged_in?
+    flash[:danger] = "Vous devez etre connectez avant de pourvoir travailler ici"
+    redirect_to root_path
+  end
+  end
 
 end
